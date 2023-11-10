@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>mouse  down and mouse up events</h1>
+    <div onmousedown="mDown(this)" onmouseUp="mup(this)" style="background-color: red;width:120px;height:200px;padding:100px;">click me!</div>
+    <script>
+        function mup(obj){
+            obj.innerHTML="thank you";
+            obj.style.backgroundColor="blue";
+        } 
+        </script>
+        <h1>a<sup>2</sup>+b<sup>2</sup>c<sub>4</sub></h1>
+</body>
+</html>

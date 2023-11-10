@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="demo">this is first heading1</h1>
+<div id="display">
+<p class="para">this is second paragraph</p>
+<p class="para">this is second paragraph</p>
+<p class="para">this is second paragraph</p>
+<p class="para">this is second paragraph</p>
+</div>
+<script>
+        document.getElementById("demo").innerHTML="this is the innerhtml text";
+var a=document.getElementById("display");
+var array=a.childNodes;
+for(var x=0;x<array.length;x++)
+{
+    array[x].innerHTML="hi this is chenna kesava rayalu"
+}
+</script>
+</body>
+</html>
